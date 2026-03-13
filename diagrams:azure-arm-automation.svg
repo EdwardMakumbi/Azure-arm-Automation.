@@ -1,0 +1,32 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- USERS -->
+  <rect x="50" y="50" width="150" height="50" fill="#66ccff" stroke="#000"/>
+  <text x="125" y="80" font-size="12" text-anchor="middle">Users</text>
+
+  <!-- AZURE PORTAL / ARM -->
+  <rect x="250" y="50" width="150" height="50" fill="#ffcc00" stroke="#000"/>
+  <text x="325" y="80" font-size="11" text-anchor="middle">Azure Portal / ARM Template</text>
+
+  <!-- VMs & STORAGE -->
+  <rect x="450" y="50" width="150" height="50" fill="#99ff99" stroke="#000"/>
+  <text x="525" y="80" font-size="12" text-anchor="middle">VMs &amp; Storage</text>
+
+  <!-- RBAC / AAD -->
+  <rect x="250" y="150" width="150" height="50" fill="#ff99ff" stroke="#000"/>
+  <text x="325" y="180" font-size="12" text-anchor="middle">RBAC / AAD</text>
+
+  <!-- ARROWS (manual triangles for GitHub safety) -->
+  <!-- Users → Azure Portal -->
+  <line x1="200" y1="75" x2="250" y2="75" stroke="#000" stroke-width="2"/>
+  <polygon points="250,75 240,70 240,80" fill="#000"/>
+
+  <!-- Azure Portal → VMs -->
+  <line x1="400" y1="75" x2="450" y2="75" stroke="#000" stroke-width="2"/>
+  <polygon points="450,75 440,70 440,80" fill="#000"/>
+
+  <!-- Azure Portal → RBAC -->
+  <line x1="325" y1="100" x2="325" y2="150" stroke="#000" stroke-width="2"/>
+  <polygon points="325,150 320,140 330,140" fill="#000"/>
+
+</svg>
